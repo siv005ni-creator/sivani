@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+</head><style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 20px;
+    }
+
+    
+    section p {
+        font-size: 16px;
+    }
+
+  
+    p::first-line {
+        font-weight: bold;
+    }
+
+    
+    p::first-letter {
+        color: rgb(235, 24, 24);
+        font-size: 30px;
+    }
+
+    
+    h3 + h3 {
+        color: green;
+    }
+
+   
+    ul li:first-child a {
+        color: red;
+    }
+
+    a:link {
+        color: blue;
+    }
+    a:visited {
+        color: purple;
+    }
+
+   
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+    <section>
+    <h2>Welcome to Our Website</h2>
+
+    <p>
+        This is the first paragraph. It explains the purpose of the webpage and
+        demonstrates the use of CSS pseudo-elements.
+    </p>
+
+    <p>
+        This is the second paragraph. It also shows how the first line and first
+        letter can be styled differently.
+    </p>
+</section>
+
+<div>
+    <h3>First Heading</h3>
+    <h3>Second Heading</h3>
+</div>
+
+<div>
+    <ul>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+        <li><a href="https://www.github.com">GitHub</a></li>
+    </ul>
+</div>
+    
+</body>
+</html>
